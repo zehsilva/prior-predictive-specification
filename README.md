@@ -39,8 +39,8 @@ It contains two subfolders ``PMF_Convergence`` and ``HPF_Convergence``.
 
 ## Visualization of PMF posterior quality using PSIS-LOO
 
-The code computing PSIS-LOO on the test subset of fitted PMF can be found in ``posterior_visualization``. The scripts pmf_precompute_objectives_posterior.py and python pmf_precompute_objectives_posterior2.py precompute certain set of configurations specified inside those files and write to respectively pmf_precompute_objectives_posterior.py.csv and pmf_precompute_objectives_posterior2.py.csv. The outputs can be then previewed with VISUALIZATION.ipynb and VISUALIZATION2.ipynb.
-VISUALIZATION_K.ipynb plots PSIS-LOO on test subset for various K with a,b,c,d set to prior optimal values.
+The code computing PSIS-LOO on the test subset of fitted PMF can be found in ``posterior_visualization``. The scripts ``pmf_precompute_objectives_posterior.py`` and ``python pmf_precompute_objectives_posterior2.py`` precompute certain set of configurations specified inside those files and write to respectively ``pmf_precompute_objectives_posterior.py.csv ``and ``pmf_precompute_objectives_posterior2.py.csv``. The outputs can be then previewed with ``VISUALIZATION.ipynb`` and ``VISUALIZATION2.ipynb``.
+``VISUALIZATION_K.ipynb`` plots PSIS-LOO on test subset for various K with a,b,c,d set to prior optimal values.
 
 
 ## Comparison of Bayesian optimization of PSIS-LOO 
