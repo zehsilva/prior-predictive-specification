@@ -1,0 +1,9 @@
+# First edit pmf_sgd_optimization.py and GENERATE_SLURM_JOBS.py to fix params such as 
+# LOG_SCORE_DERIVATIVES=False (RESULTS2.csv.gz) / True (RESULTS1.csv.gz).
+
+python GENERATE_SLURM_JOBS.py #create cluster jobs
+bash RUN_ALL.sh #load jobs to cluster
+
+grep -v SEED *csv > RESULTS.csv #merge results
+gzip RESULTS.csv
+

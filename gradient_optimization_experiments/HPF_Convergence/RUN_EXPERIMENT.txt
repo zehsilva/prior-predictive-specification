@@ -1,0 +1,8 @@
+# First edit hpf_sgd_optimization.py and GENERATE_SLURM_JOBS.py to fix params 
+
+python GENERATE_SLURM_JOBS.py #create cluster jobs
+bash RUN_ALL.sh #load jobs to cluster
+
+grep -v SEED *csv > RESULTS.csv #merge results
+gzip RESULTS.csv
+

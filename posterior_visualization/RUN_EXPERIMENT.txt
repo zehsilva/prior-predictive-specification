@@ -1,0 +1,7 @@
+python pmf_precompute_objectives_posterior.py # precomputes certain set of configurations specified in the file and 
+                                              # outputs them to pmf_precompute_objectives_posterior.py.csv 
+                                              # the output pmf_precompute_objectives_posterior.py.csv can be then previewed in VISUALIZATION.ipynb
+
+python pmf_precompute_objectives_posterior2.py # spans a different set of configurations (bxd instead of axc)
+
+
