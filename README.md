@@ -1,6 +1,21 @@
 # Learning hyperparameters of Bayesian models by matching moments of prior predictive distribution.
 
 
+Eliezer de Souza da Silva, Tomasz Kuśmierczyk, Marcelo Hartmann, Arto Klami; [Prior Specification for Bayesian Matrix Factorization via Prior Predictive Matching](https://www.jmlr.org/papers/v24/21-0623.html). Journal of Machine Learning Research. 24(67):1−51, 2023.
+```
+@article{JMLR:v24:21-0623,
+  author  = {Eliezer de Souza da Silva and Tomasz Kuśmierczyk and Marcelo Hartmann and Arto Klami},
+  title   = {Prior Specification for Bayesian Matrix Factorization via Prior Predictive Matching},
+  journal = {Journal of Machine Learning Research},
+  year    = {2023},
+  volume  = {24},
+  number  = {67},
+  pages   = {1--51},
+  url     = {http://jmlr.org/papers/v24/21-0623.html}
+}
+
+```
+
 ## Pre-installation Requirements
 
 The code was tested using Python 3.7.4 from Anaconda 2019.10.
